@@ -1,229 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-B933Q59SFQ"></script>
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Service Products Store | MicroBurstMedia</title>
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-B933Q59SFQ"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-B933Q59SFQ');
+    </script>
 
-gtag('config', 'G-B933Q59SFQ');
-</script> <title>Digital Service Products Store | MicroBurstMedia</title>
+    <link rel="icon" type="image/png" href="https://cdn.launchcart.com/s47561/1695846294-bb2c7ca6-3563-4ba6-a820-11297c768cd2-thumb.png">
+    <meta property="og:image" content="https://cdn.launchcart.com/s47561/1695846294-bb2c7ca6-3563-4ba6-a820-11297c768cd2-thumb.png">
+    <meta name="description" content="Is your business looking to automate? We welcome you to try our automation systems designed to help you scale and optimize your enterprise online. Operated by MicroBurstMedia.">
 
-<link rel="icon" type="image/png" href="https://cdn.launchcart.com/s47561/1695846294-bb2c7ca6-3563-4ba6-a820-11297c768cd2-thumb.png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;800&display=swap" rel="stylesheet">
 
-<meta property="og:image" content="https://cdn.launchcart.com/s47561/1695846294-bb2c7ca6-3563-4ba6-a820-11297c768cd2-thumb.png">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "MicroBurstMedia",
+        "url": "https://microburstmedia.github.io/business-community-center/",
+        "logo": "https://cdn.launchcart.com/s47561/1695846294-bb2c7ca6-3563-4ba6-a820-11297c768cd2-thumb.png",
+        "description": "Workflow Automation Center Managed & Operated by MicroBurstMedia."
+    }
+    </script>
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Is your business looking to automate? If yes, then we welcome you to try our automation test systems at no cost to you which we've built and designed in mind, to give users the opportunity to learn and experience the world of AI & Atuomation. In addition, this helps business mindset types to get an understanding on how to scale and optimize their enterprise online. This site is. operated by MicroBurstMedia.">
-
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;800&display=swap" rel="stylesheet">
-<script type="application/ld+json">
-{
-"@context": "https://schema.org",
-"@type": "Organization",
-"name": "MicroBurstMedia",
-"url": "https://microburstmedia.github.io/business-community-center/",
-"logo": "https://cdn.launchcart.com/s47561/1695846294-bb2c7ca6-3563-4ba6-a820-11297c768cd2-thumb.png",
-"description": "Workflow Automation Center Manage & Operated by MicroBurstMedia."
-}
-</script>
-
-<style>
-html, body {
-height: 100%;
-margin: 0;
-font-family: 'Inter', sans-serif;
-background: #f4f6f9;
-display: flex;
-flex-direction: column;
-}
-
-/* --- FINAL NAVIGATION BAR STYLE --- */
-.top-nav-header {
-background: #0f172a;
-border-bottom: 1px solid rgba(255, 255, 255, 0.05);
-padding: 12px 0;
-position: sticky;
-top: 0;
-z-index: 1000;
-}
-
-.z-nav-container {
-display: grid;
-grid-template-columns: 1fr 2fr 1fr;
-align-items: center;
-max-width: 1200px;
-margin: 0 auto;
-padding: 0 20px;
-}
-
-.z-logo-group {
-display: flex;
-align-items: center;
-gap: 12px;
-color: white;
-text-decoration: none;
-font-weight: 800;
-font-size: 1.1rem;
-justify-self: start;
-}
-
-.z-logo-group img {
-height: 32px;
-border-radius: 4px;
-}
-
-.nav-center-title {
-color: #ffffff; /* Center Text: White */
-font-size: 18px;
-font-weight: 600;
-margin: 0;
-text-align: center;
-justify-self: center;
-}
-
-.backdoor-exit {
-justify-self: end;
-color: #facc15; /* Symbol: Yellow */
-text-decoration: none;
-font-size: 14px;
-font-weight: 500;
-display: flex;
-align-items: center;
-gap: 8px; /* Space between text and icon */
-transition: 0.2s;
-}
-
-.backdoor-exit:hover {
-color: #ffffff;
-transform: translateX(3px);
-}
-
-@media (max-width: 768px) {
-.nav-center-title { font-size: 14px; }
-.z-logo-group span, .backdoor-exit span { display: none; } /* Simplified for mobile */
-}
-
-.main-content {
-flex: 1;
-padding: 40px 20px;
-}
-
-/* --- TITLE & DESCRIPTION ALIGNMENT --- */
-.intro-section {
-max-width: 800px;
-margin: 0 auto 40px auto;
-text-align: center;
-}
-
-.intro-section h2 {
-margin: 0 0 15px 0;
-font-size: 26px;
-color: #0f172a;
-}
-
-.intro-section p {
-color: #475569;
-font-size: 15px;
-line-height: 1.6;
-margin: 0 0 10px 0;
-}
-/* ------------------------------------- */
-
-.grid {
-display: grid;
-grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-gap: 20px;
-max-width: 1200px;
-margin: 0 auto;
-}
-
-.card {
-background: white;
-padding: 20px;
-border-radius: 12px;
-box-shadow: 0 8px 20px rgba(0,0,0,0.05);
-transition: 0.3s ease;
-cursor: pointer;
-}
-
-.card:hover {
-transform: translateY(-5px);
-}
-
-.card img {
-width: 100%;
-height: 140px;
-object-fit: cover;
-border-radius: 8px;
-margin-bottom: 12px;
-background: #e2e8f0;
-}
-
-.card h3 {
-margin-top: 0;
-font-size: 16px;
-color: #0f172a;
-}
-
-.card p {
-font-size: 14px;
-color: #555;
-margin: 0;
-}
-
-footer {
-background: #0f172a;
-color: white;
-text-align: center;
-padding: 20px;
-font-size: 13px;
-margin-top: 40px;
-}
-
-footer a {
-color: #60a5fa;
-margin: 0 10px;
-cursor: pointer;
-text-decoration: none;
-
-}
-</style>
-</head>
-
-<body>
-
-<header class="top-nav-header">
-<div class="z-nav-container">
-<a href="https://microburstmedia.github.io/digital-marketing-network/" class="z-logo-group">
-<img src="https://cdn.launchcart.com/s47561/1695846294-bb2c7ca6-3563-4ba6-a820-11297c768cd2-thumb.png" alt="MBM Logo">
-<span>MBMN</span>
-</a>
-
-<h1 class="nav-center-title">Digital Service Products Store</h1>
-
-<a href="https://microburstmedia.github.io/digital-marketing-network/" class="backdoor-exit">
-<span>Exit to Main Site</span>
-<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path><polyline points="16 17 21 12 16 7"></polyline><line x1="21" y1="12" x2="9" y2="12"></line></svg>
-</a>
-</div>
-</header>
-
-<head>
     <style>
-        /* Base Reset */
-        body { margin: 0; padding: 0; background-color: #fff; font-family: 'Rubik', Arial, sans-serif; }
-        
-        /* Main Wrapper */
-        .page-wrapper {
-            max-width: 1140px;
-            margin: 0 auto;
-            padding: 20px;
+        /* --- GLOBAL STYLES --- */
+        html, body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Inter', sans-serif;
+            background-color: #f4f6f9;
+            color: #0f172a;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
         }
 
-        /* The 3-Column Grid */
+        /* --- NAVIGATION --- */
+        .top-nav-header {
+            background: #0f172a;
+            padding: 12px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .z-nav-container {
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .z-logo-group {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            color: white;
+            text-decoration: none;
+            font-weight: 800;
+        }
+
+        .z-logo-group img { height: 32px; border-radius: 4px; }
+
+        .nav-center-title {
+            color: #ffffff;
+            font-size: 18px;
+            font-weight: 600;
+            text-align: center;
+            margin: 0;
+        }
+
+        .backdoor-exit {
+            justify-self: end;
+            color: #facc15;
+            text-decoration: none;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            transition: 0.2s;
+        }
+
+        /* --- PRODUCT GRID --- */
+        .page-wrapper {
+            max-width: 1140px;
+            margin: 40px auto;
+            padding: 0 20px;
+            flex: 1;
+        }
+
         .product-grid {
             display: flex;
             flex-wrap: wrap;
@@ -231,105 +107,122 @@ text-decoration: none;
             margin-bottom: 40px;
         }
 
-        /* Individual Card Polishing */
         .product-card {
             flex: 1;
             min-width: 300px;
-            background-color: #000a37;
-            padding: 20px;
+            background-color: #000a37; /* The dark navy from your screenshot */
+            padding: 25px;
             text-align: center;
             color: #ffffff;
+            border-radius: 8px;
             display: flex;
             flex-direction: column;
             align-items: center;
+            transition: transform 0.3s ease;
         }
-        
-        .product-card:hover {
-    transform: scale(1.02); /* Very slight zoom */
-}
+
+        .product-card:hover { transform: scale(1.02); }
 
         .product-card img {
             width: 100%;
             height: auto;
-            max-width: 360px;
+            max-width: 300px;
             margin: 15px 0;
+            border-radius: 4px;
         }
 
-        .product-card h2 { font-size: 24px; margin: 10px 0; }
-        .product-card .price { font-size: 25px; font-weight: bold; margin: 10px 0; }
-        .product-card .old-price { color: #e03e2d; text-decoration: line-through; margin-left: 5px; }
+        .product-card h2 { font-size: 22px; margin: 10px 0; line-height: 1.2; }
+        .product-card h3 { font-size: 16px; font-weight: 400; opacity: 0.9; margin: 5px 0; }
+        
+        .price { font-size: 24px; font-weight: 800; margin: 10px 0; }
+        .old-price { color: #e03e2d; text-decoration: line-through; margin-left: 8px; font-size: 18px; }
 
-        /* Button Styling from Photo */
         .btn-request {
             background-color: #5e17eb;
             color: #fff533;
-            padding: 15px 25px;
+            padding: 12px 20px;
             text-decoration: none;
-            font-size: 28px;
+            font-size: 24px;
             font-weight: bold;
-            border-radius: 4px;
-            width: 80%;
+            border-radius: 6px;
+            width: 85%;
             margin: 15px 0;
             transition: 0.3s;
         }
 
-        .btn-request:hover {
-            background-color: #fff533;
-            color: #0b1427;
+        .btn-request:hover { background-color: #fff533; color: #000a37; }
+
+        .blue-link { color: #3598db; text-decoration: underline; font-size: 15px; display: block; margin: 5px 0; line-height: 1.4; }
+        .portfolio-link { color: #fff; font-size: 13px; text-decoration: underline; margin-top: 15px; opacity: 0.8; }
+        
+        .bonus-text { color: #f1c40f; font-weight: bold; margin: 10px 0; font-size: 14px; }
+        .notice-text { color: #ff4d4d; font-weight: bold; margin: 10px 0; font-size: 14px; }
+
+        /* --- DIVIDER & FOOTER VERBIAGE --- */
+        .section-divider {
+            border: 0;
+            border-top: 2px solid #0f172a;
+            margin: 40px 0;
         }
 
-        /* Link Styling */
-        .blue-link { color: #3598db; text-decoration: underline; font-size: 18px; display: block; margin: 5px 0; }
-        .portfolio-link { color: #fff; font-size: 14px; text-decoration: underline; margin-top: 15px; }
-
-        /* Bonus & Notice Highlights */
-        .bonus-text { color: #f1c40f; font-weight: bold; margin-top: 10px; }
-        .notice-text { color: #e03e2d; font-weight: bold; margin-top: 10px; }
-
-        /* THE DIVIDER */
-        .section-divider {
-    border: 0;
-    border-top: 1px solid #000000;
-    margin: 40px 0;
-    width: 100%;
-}
-
-        /* Bottom Description Section */
         .description-footer {
-    background-color: #000a37;
-    color: #fff;
-    padding: 40px 20px; /* Added horizontal padding */
-    text-align: center;
-    border-radius: 4px;
-    width: 100%; /* Ensure it spans the width */
-    box-sizing: border-box;
-}
+            background-color: #000a37;
+            color: #fff;
+            padding: 40px;
+            text-align: center;
+            border-radius: 12px;
+            margin-bottom: 40px;
+        }
 
-        .description-footer p { font-size: 22px; line-height: 1.6; max-width: 900px; margin: 0 auto 20px auto; }
-        .description-footer a { color: #3598db; text-decoration: none; font-weight: bold; }
+        .description-footer p { font-size: 18px; line-height: 1.6; max-width: 850px; margin: 0 auto 15px; }
+        .description-footer a { color: #3598db; font-weight: bold; text-decoration: none; }
 
-        /* Responsive Mobile Tweak */
+        /* --- SITE FOOTER --- */
+        .site-footer {
+            background: #0f172a;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+            font-size: 13px;
+        }
+
+        .site-footer a { color: #60a5fa; margin: 0 10px; text-decoration: none; cursor: pointer; }
+
         @media (max-width: 768px) {
+            .z-nav-container { grid-template-columns: 1fr 1fr; }
+            .nav-center-title { display: none; }
             .product-grid { flex-direction: column; }
-            .product-card { width: 100%; max-width: 100%; flex: none; }
         }
     </style>
 </head>
 <body>
 
+<header class="top-nav-header">
+    <div class="z-nav-container">
+        <a href="https://microburstmedia.github.io/digital-marketing-network/" class="z-logo-group">
+            <img src="https://cdn.launchcart.com/s47561/1695846294-bb2c7ca6-3563-4ba6-a820-11297c768cd2-thumb.png" alt="MBM Logo">
+            <span>MBMN</span>
+        </a>
+        <h1 class="nav-center-title">Digital Service Products Store</h1>
+        <a href="https://microburstmedia.github.io/digital-marketing-network/" class="backdoor-exit">
+            <span>Exit Site</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path><polyline points="16 17 21 12 16 7"></polyline><line x1="21" y1="12" x2="9" y2="12"></line></svg>
+        </a>
+    </div>
+</header>
+
 <div class="page-wrapper">
     <div class="product-grid">
-        
         <div class="product-card">
             <h3>MicroBurstMedia</h3>
             <h2>Web Automation<br>Setup Services</h2>
             <div class="price">$997.00 USD</div>
             <img src="https://cdn.launchcart.com/s47561/1769979108-bea2f1a9-6487-4478-b4b8-30d20238d256.jpeg" alt="Web Automation">
-            <h2>Services Include:</h2>
-            <h3>- Web Building <br>- Web Design <br>- Automation Setup <br>- IT Management <br>- System Development</h3>
+            <h3>Services Include:</h3>
+            <p>Web Building • Design • Automation • IT Management</p>
             <a href="https://microburstmediasolutions.systeme.io/logic-links-subscription-course" class="btn-request">Request Services</a>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLScK9UwzS3IKHAvqaW_CXMxlSvBB2PHC6A_6Jd0owOIzYxj8_w/viewform" class="blue-link">For B2B Transactions<br> Click to Request Invoice</a>
-            <p class="bonus-text">BONUS: w/FREE Online<br>E-Learning Course</p>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScK9UwzS3IKHAvqaW_CXMxlSvBB2PHC6A_6Jd0owOIzYxj8_w/viewform" class="blue-link">For B2B Transactions<br>Click to Request Invoice</a>
+            <p class="bonus-text">BONUS: w/FREE Online E-Learning Course</p>
             <a href="https://microburstmedia.wordpress.com/" class="portfolio-link">View Work Portfolio</a>
         </div>
 
@@ -338,11 +231,11 @@ text-decoration: none;
             <h2>AI Automation Setup<br>Guidebook [Paperback]</h2>
             <div class="price">$97.50 USD <span class="old-price">$149.99</span></div>
             <img src="https://cdn.launchcart.com/s47561/1769979259-112ceab6-4b51-40d8-b3b3-ff1b8fde129c.jpeg" alt="AI Guidebook">
-            <h2>Benefits Include:</h2>
-            <h3>- Insights <br>- Resources <br>- Support <br>- Basic Setup <br>- IT Details</h3>
+            <h3>Benefits Include:</h3>
+            <p>Insights • Resources • Support • IT Details</p>
             <a href="https://buy.stripe.com/bJe8wO1201DG1yfaUn5Ne0I" class="btn-request">Request Product</a>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSf7IfwBNTSSF_MOeX7v14dm8PInLPlwPnKR9dAFdzq_Ty9Z4Q/viewform" class="blue-link">Separate Bulk Orders <br>Click to Request Invoice</a>
-            <p class="notice-text">NOTICE: Use Discount Code:<br>OFF35 at Checkout</p>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSf7IfwBNTSSF_MOeX7v14dm8PInLPlwPnKR9dAFdzq_Ty9Z4Q/viewform" class="blue-link">Separate Bulk Orders<br>Click to Request Invoice</a>
+            <p class="notice-text">NOTICE: Use Discount Code: OFF35</p>
             <a href="https://microburstmediasolutions.systeme.io/the-beginners-guide-to-ai-automation-setup-69e2b2b8" class="portfolio-link">View to Learn More</a>
         </div>
 
@@ -351,14 +244,13 @@ text-decoration: none;
             <h2>E-Commerce Web<br>Automation Services</h2>
             <div class="price">$997.00 USD</div>
             <img src="https://cdn.launchcart.com/s47561/1769979184-6d155b37-a182-46de-81c4-3c82aa8c93cf.jpeg" alt="E-Commerce Automation">
-            <h2>Services Include:</h2>
-            <h3>- Web Building <br>- Web Design <br>- Automation Setup <br>- IT Management <br>- System Development</h3>
+            <h3>Services Include:</h3>
+            <p>E-com Store • Web Design • System Development</p>
             <a href="https://microburstmediasolutions.systeme.io/logic-links-subscription-course" class="btn-request">Request Services</a>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLScK9UwzS3IKHAvqaW_CXMxlSvBB2PHC6A_6Jd0owOIzYxj8_w/viewform" class="blue-link">For B2B Transactions<br> Click to Request Invoice</a>
-            <p class="bonus-text">BONUS: w/FREE Online<br>E-Learning Course</p>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScK9UwzS3IKHAvqaW_CXMxlSvBB2PHC6A_6Jd0owOIzYxj8_w/viewform" class="blue-link">For B2B Transactions<br>Click to Request Invoice</a>
+            <p class="bonus-text">BONUS: w/FREE Online E-Learning Course</p>
             <a href="https://microburstmedia.wordpress.com/" class="portfolio-link">View Work Portfolio</a>
         </div>
-
     </div>
 
     <hr class="section-divider">
@@ -367,28 +259,18 @@ text-decoration: none;
         <p>Digital marketing network, <strong>MicroBurstMedia</strong>, thanks you for stopping by our service products page.</p>
         <p>Should you wish to acquire any of the product resources shown here, click on "Request for Product" to be taken to our virtual self-checkout page.</p>
         <p>Ensure to <a href="#">Follow</a> us on social media @microburstmedia for up-to-date news.</p>
-        <p>In need of our services? Please email us at <a href="mailto:microburstmediasolutions@outlook.com">microburstmediasolutions@outlook.com</a></p>
+        <p>In need of our services? Email us at <a href="mailto:microburstmediasolutions@outlook.com">microburstmediasolutions@outlook.com</a></p>
         <p><em>(Serious Inquiries ONLY!)</em></p>
     </div>
 </div>
 
-<footer>
-© 2026 Digital Marketing Network, MicroBurstMedia |
-<a onclick="alert('Affiliate Disclosure: We may receive compensation for certain referrals.')">Affiliate Disclosure</a> |
-<a onclick="alert('Privacy Policy: We collect minimal data for referral routing purposes only.')">Privacy Policy</a> |
-<a onclick="alert('Terms of Service: Use of this platform constitutes agreement to this websites policies.')">Terms of Service</a> |
-<a onclick="alert('Legal Disclaimer: We do not provide financial, legal, or employment advice.')">Legal Disclaimer</a>
+<footer class="site-footer">
+    © 2026 Digital Marketing Network, MicroBurstMedia |
+    <a onclick="alert('Affiliate Disclosure: We may receive compensation for certain referrals.')">Affiliate Disclosure</a> |
+    <a onclick="alert('Privacy Policy: We collect minimal data for referral routing purposes only.')">Privacy Policy</a> |
+    <a onclick="alert('Terms of Service: Use of this platform constitutes agreement to this websites policies.')">Terms of Service</a> |
+    <a onclick="alert('Legal Disclaimer: We do not provide financial, legal, or employment advice.')">Legal Disclaimer</a>
 </footer>
-
-<script>
-
-function openForm(title, videoUrl, destinationUrl) {
-if (destinationUrl && destinationUrl !== 'NONE') {
-window.open(destinationUrl, '_blank');
-}
-}
-
-</script>
 
 </body>
 </html>
