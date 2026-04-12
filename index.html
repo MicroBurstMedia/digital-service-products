@@ -31,17 +31,18 @@
     </script>
 
     <style>
-        /* --- GLOBAL STYLES --- */
-        html, body {
-            margin: 0;
-            padding: 0;
-            font-family: 'Inter', sans-serif;
-            background-color: #f4f6f9;
-            color: #0f172a;
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-        }
+        /* --- UPDATED GLOBAL STYLES --- */
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden; /* Fixes mobile horizontal scroll */
+    font-family: 'Inter', sans-serif;
+    background-color: #f4f6f9;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
 
         /* --- NAVIGATION --- */
         .top-nav-header {
@@ -166,10 +167,11 @@ transform: translateX(3px);
 
         /* --- DIVIDER & FOOTER VERBIAGE --- */
         .section-divider {
-            border: 0;
-            border-top: 2px solid #0f172a;
-            margin: 40px 0;
-        }
+    border: 0;
+    border-top: 2px solid #000a37; /* Match your brand navy */
+    margin: 40px 0;
+    width: 100%;
+}
 
         .description-footer {
             background-color: #000a37;
@@ -183,14 +185,17 @@ transform: translateX(3px);
         .description-footer p { font-size: 18px; line-height: 1.6; max-width: 850px; margin: 0 auto 15px; }
         .description-footer a { color: #3598db; font-weight: bold; text-decoration: none; }
 
-        /* --- SITE FOOTER --- */
-        .site-footer {
-            background: #0f172a;
-            color: white;
-            text-align: center;
-            padding: 30px 20px;
-            font-size: 13px;
-        }
+        /* --- UPDATED SITE FOOTER --- */
+.site-footer {
+    background: #0f172a;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    font-size: 13px;
+    width: 100%; /* Ensures bar spans mobile screen */
+    box-sizing: border-box;
+    margin-top: auto; /* Keeps it at the bottom */
+}
 
         .site-footer a { color: #60a5fa; margin: 0 10px; text-decoration: none; cursor: pointer; }
 
