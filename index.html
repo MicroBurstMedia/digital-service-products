@@ -36,9 +36,10 @@ html, body {
     margin: 0;
     padding: 0;
     width: 100%;
-    overflow-x: hidden; /* Fixes mobile horizontal scroll */
+    overflow-x: hidden; /* This stops the side-to-side wobbling on mobile */
     font-family: 'Inter', sans-serif;
     background-color: #f4f6f9;
+    color: #0f172a;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -101,11 +102,13 @@ transform: translateX(3px);
 
         /* --- PRODUCT GRID --- */
         .page-wrapper {
-            max-width: 1140px;
-            margin: 40px auto;
-            padding: 0 20px;
-            flex: 1;
-        }
+    max-width: 1140px;
+    margin: 40px auto;
+    padding: 0 10px; /* Reduced for mobile breathing room */
+    flex: 1;
+    width: 100%; /* Ensures it fills available space */
+    box-sizing: border-box; /* Crucial for preventing side cut-off */
+}
 
         .product-grid {
             display: flex;
@@ -115,17 +118,19 @@ transform: translateX(3px);
         }
 
         .product-card {
-            flex: 1;
-            min-width: 300px;
-            background-color: #000a37; /* The dark navy from your screenshot */
-            padding: 25px;
-            text-align: center;
-            color: #ffffff;
-            border-radius: 8px;
-            display: flex;
+    flex: 1;
+    min-width: 280px; /* Lowered slightly to fit smaller iPhones */
+    background-color: #000a37;
+    padding: 25px;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 8px;
+    display: flex;
     flex-direction: column;
-    justify-content: space-between; 
+    align-items: center;
+    justify-content: space-between; /* Keeps buttons aligned */
     transition: transform 0.3s ease;
+    box-sizing: border-box; 
 }
 
         .product-card:hover { transform: scale(1.02); }
@@ -205,10 +210,18 @@ transform: translateX(3px);
         .site-footer a { color: #60a5fa; margin: 0 10px; text-decoration: none; cursor: pointer; }
 
         @media (max-width: 768px) {
-            .z-nav-container { grid-template-columns: 1fr 1fr; }
-            .nav-center-title { display: none; }
-            .product-grid { flex-direction: column; }
-        }
+    .z-nav-container { grid-template-columns: 1fr 1fr; }
+    .nav-center-title { display: none; }
+    .product-grid { 
+        flex-direction: column; 
+        width: 100%; 
+    }
+    
+    .product-card {
+        width: 100%; /* Forces cards to stay inside the screen */
+        min-width: 0; /* Removes the restriction causing the cut-off */
+    }
+}
     </style>
 </head>
 <body>
